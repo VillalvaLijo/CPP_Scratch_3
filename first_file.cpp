@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 
 int main()
 {
@@ -16,7 +17,7 @@ int main()
 
     cout<<"MY NAME IS SAM"<<endl;
 
-    cout<<"Enter some Ints into an array";
+    // cout<<"Enter some Ints into an array";
 
 
     // for (i=0; i<12; i++){
@@ -36,16 +37,25 @@ int main()
 
     //use a for loop to iterate through the array and load it with names
 
-    cout<<"Enter some names into this Charecter array:"<<endl;
+    // cout<<"Enter some names into this Charecter array:"<<endl;
 
-    for(int j=0;j<5;j++){
-        cout<<"Enter in a Name: "; cin>>Names[j];
-    }
+    // for(int j=0;j<5;j++){
+    //     cout<<"Enter in a Name: "; cin>>Names[j];
+    // }
 
-    cout<<"Now we will read all the names you entered back too you!";
+    // cout<<"Now we will read all the names you entered back too you!";
 
-    for(int j=0;j<5;j++){
-        cout<<Names[j]<<endl;
+    // for(int j=0;j<5;j++){
+    //     cout<<Names[j]<<endl;
+    // }
+
+
+    //create an array of ten ints with random numbers asigned as the values
+    //seed the random numbers from the computer clock.
+
+    for(i=0;i<12;i++){
+        numbers[i] = rand();
+        cout << numbers[i]<<endl;
     }
 
 }
