@@ -39,7 +39,7 @@ int main()
     cout<<"Enter some names into this Charecter array:"<<endl;
 
     for(int j=0;j<5;j++){
-        cout<<"Enter in a Name: "; cin>>Names[i];
+        cout<<"Enter in a Name: "; cin>>Names[j];
     }
 
     cout<<"Now we will read all the names you entered back too you!";
